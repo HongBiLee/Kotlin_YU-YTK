@@ -3,7 +3,7 @@
 import java.util.*
 
 /*
-// p.26
+// p.26 기본
 fun main(args: Array<String>) {
     println("Hello, World! \n")
 
@@ -15,7 +15,7 @@ fun main(args: Array<String>) {
  */
 
 /*
-// p.27
+// p.27 덧셈
 fun addInt(a: Int, b: Int): Int {
     return a + b
 }
@@ -41,7 +41,7 @@ fun main(args: Array<String>){
  */
 
 /*
-// p.41
+// p.41 사칙 연산
 fun main(args: Array<String>) {
     val cin = Scanner(System.`in`)
     while(true) {
@@ -61,7 +61,7 @@ fun main(args: Array<String>) {
  */
 
 /*
-// p.52
+// p.52 구구단
 fun main(args: Array<String>) {
     println("9 x 9 Multiplication Table")
     print("   |")
@@ -90,7 +90,7 @@ fun main(args: Array<String>) {
  */
 
 /*
-// p.55
+// p.55 삽입 정렬
 fun printArray(arr: IntArray) {
     val size = arr.size
     for (i in 0..size-1)
@@ -135,7 +135,7 @@ fun main() {
  */
 
 /*
-// p.56
+// p.56 피보나치
 
 fun Fibo(n: Int): Int { // 정적 피보나치 계산 함수
     var fibo_n: Int
