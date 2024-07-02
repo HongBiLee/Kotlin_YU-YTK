@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60dba020-5642-48a1-a34a-6ca1c271ec8f" name="Changes" comment="ch01 - Kotlin프로그래밍 개요, 프로그램 기본구조, 기본자료형, 실행 기본 제어, 입력 출력 : 주석">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="60dba020-5642-48a1-a34a-6ca1c271ec8f" name="Changes" comment="ch02 - Kotlin 기본 자료형, 함수, 입력과 출력, 실행 제어, 디버깅" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +31,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Kotlin.Ch01Kt.executor": "Debug",
     "Kotlin.Ch02Kt.executor": "Run",
+    "Kotlin.Ch03Kt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -54,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719809419592</updated>
-      <workItem from="1719809420964" duration="4690000" />
+      <workItem from="1719809420964" duration="7305000" />
     </task>
     <task id="LOCAL-00001" summary="초기">
       <option name="closed" value="true" />
@@ -80,7 +80,31 @@
       <option name="project" value="LOCAL" />
       <updated>1719810672211</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ch01 - Kotlin프로그래밍 개요, 프로그램 기본구조, 기본자료형, 실행 기본 제어, 입력 출력 : 주석">
+      <option name="closed" value="true" />
+      <created>1719816333014</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719816333014</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ch02 - Kotlin 기본 자료형, 함수, 입력과 출력, 실행 제어, 디버깅">
+      <option name="closed" value="true" />
+      <created>1719816465775</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719816465775</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ch02 - Kotlin 기본 자료형, 함수, 입력과 출력, 실행 제어, 디버깅">
+      <option name="closed" value="true" />
+      <created>1719816589225</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719816589225</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +114,7 @@
     <MESSAGE value="초기" />
     <MESSAGE value="ch01 - Kotlin프로그래밍 개요, 프로그램 기본구조, 기본자료형, 실행 기본 제어, 입력 출력" />
     <MESSAGE value="ch01 - Kotlin프로그래밍 개요, 프로그램 기본구조, 기본자료형, 실행 기본 제어, 입력 출력 : 주석" />
-    <option name="LAST_COMMIT_MESSAGE" value="ch01 - Kotlin프로그래밍 개요, 프로그램 기본구조, 기본자료형, 실행 기본 제어, 입력 출력 : 주석" />
+    <MESSAGE value="ch02 - Kotlin 기본 자료형, 함수, 입력과 출력, 실행 제어, 디버깅" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch02 - Kotlin 기본 자료형, 함수, 입력과 출력, 실행 제어, 디버깅" />
   </component>
 </project>
