@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60dba020-5642-48a1-a34a-6ca1c271ec8f" name="Changes" comment="ch02 - Kotlin 기본 자료형, 함수, 입력과 출력, 실행 제어, 디버깅" />
+    <list default="true" id="60dba020-5642-48a1-a34a-6ca1c271ec8f" name="Changes" comment="ch05- Kotlin 클래스 상속, 인터페이스, 확장 함수">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch03.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch03.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch04/MtrxApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch04/MtrxApp.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -34,6 +39,10 @@
     "Kotlin.Ch01Kt.executor": "Debug",
     "Kotlin.Ch02Kt.executor": "Run",
     "Kotlin.Ch03Kt.executor": "Run",
+    "Kotlin.CityPairAppKt.executor": "Run",
+    "Kotlin.HashMapAppKt.executor": "Run",
+    "Kotlin.MtrxAppKt.executor": "Run",
+    "Kotlin.PersonAppKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -43,9 +52,19 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dmsen\OneDrive\Desktop\Kotlin_240701-240705\src\Ch06" />
+      <recent name="C:\Users\dmsen\OneDrive\Desktop\Kotlin_240701-240705" />
+      <recent name="C:\Users\dmsen\OneDrive\Desktop\Kotlin_240701-240705\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719809419592</updated>
-      <workItem from="1719809420964" duration="7305000" />
+      <workItem from="1719809420964" duration="30837000" />
     </task>
     <task id="LOCAL-00001" summary="초기">
       <option name="closed" value="true" />
@@ -104,7 +123,31 @@
       <option name="project" value="LOCAL" />
       <updated>1719816589225</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ch03- Kotlin 함수, 기본 알고리즘, 성능 측정">
+      <option name="closed" value="true" />
+      <created>1719890286928</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719890286929</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ch04- Kotlin 객체 지향 프로그래밍, 클래스, 상속">
+      <option name="closed" value="true" />
+      <created>1719970169515</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719970169515</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ch05- Kotlin 클래스 상속, 인터페이스, 확장 함수">
+      <option name="closed" value="true" />
+      <created>1719976934611</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719976934611</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +158,19 @@
     <MESSAGE value="ch01 - Kotlin프로그래밍 개요, 프로그램 기본구조, 기본자료형, 실행 기본 제어, 입력 출력" />
     <MESSAGE value="ch01 - Kotlin프로그래밍 개요, 프로그램 기본구조, 기본자료형, 실행 기본 제어, 입력 출력 : 주석" />
     <MESSAGE value="ch02 - Kotlin 기본 자료형, 함수, 입력과 출력, 실행 제어, 디버깅" />
-    <option name="LAST_COMMIT_MESSAGE" value="ch02 - Kotlin 기본 자료형, 함수, 입력과 출력, 실행 제어, 디버깅" />
+    <MESSAGE value="ch03- Kotlin 함수, 기본 알고리즘, 성능 측정" />
+    <MESSAGE value="ch04- Kotlin 객체 지향 프로그래밍, 클래스, 상속" />
+    <MESSAGE value="ch05- Kotlin 클래스 상속, 인터페이스, 확장 함수" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch05- Kotlin 클래스 상속, 인터페이스, 확장 함수" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.MissingFormatArgumentException" package="java.util" />
+          <option name="timeStamp" value="6" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
