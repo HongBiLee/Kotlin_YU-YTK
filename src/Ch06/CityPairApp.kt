@@ -26,6 +26,8 @@ fun fget_interCityDistMap(fname: String): HashMap<CityPair, Int> {
         hmap_ICD.put(CityPair(city2, city1), dist)
     }
 
+    fin.close()
+
     return hmap_ICD
 }
- */
+*/
