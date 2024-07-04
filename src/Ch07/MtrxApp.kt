@@ -5,6 +5,7 @@ import java.io.*
 import Ch07.Mtrx
 import kotlin.jvm.Throws
 
+/*
 @Throws(IOException::class)
 fun main() {
     val fin_name = "src/Ch07/mtrx_data.txt"
@@ -49,3 +50,5 @@ fun main() {
     fin.close()
     fout.close()
 }
+
+*/
