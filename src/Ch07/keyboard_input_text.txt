@@ -1,0 +1,4 @@
+Hello, World!
+Bye, World!
+안녕, 세상!
+잘 가, 세상!
