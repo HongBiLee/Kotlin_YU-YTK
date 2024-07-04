@@ -13,6 +13,8 @@
  * 정렬 방법 ; 선택 정렬, 삽입 정렬, 병합 정렬, 퀵 정렬
  * 단순 반복 구조 ; 선택 정렬, 삽입 정렬 // 3만 개 미만 // 모든 걸 고려해서 정렬해야 함
  * 분할 및 정복 구조 ; 병합 정렬, 퀵 정렬 // 3만 개 이상 무조건 // 모든 걸 고려할 필요 x (분할 처리 => pivot value 기준 작은 조, 큰 조로 나뉨)
+ * 배열 크기가 작을 때 퀵 정렬보다는 삽입 정렬이 더 빠름 (배열 크기 = 10 정도?)
+ * 배열 크기가 50 이상일 때 퀵 정렬이 빠름
  *
  * 컴퓨터 구조에 따라 실행 시간이 달라져 => 실무에서는 다 실행해서 확인해 봐야 함
  *
@@ -34,6 +36,7 @@
  */
 
 import java.util.*
+import kotlin.math.min
 import kotlin.system.*
 
 /*
@@ -111,7 +114,89 @@ fun main() {
     cin.close()
 }
  */
+/*
+// p.22 - 순차 탐색
+fun sequential_search(array: IntArray, key_to_search: Int): Int {
+    val size = array.size
+    for (i in 0..<size) {
+        if (array[i] == key_to_search)
+            return i
+    }
 
+    return -1 // 못 찾았다
+}
 
 // p.32 - 정렬
+fun selection_sort(array: IntArray) { // 선택 정렬
+    for (i in 0..< array.size) {
+        var min_index = i
+        for (j in i + 1..< array.size) {
+            if (array[min_index] > array[j]) {
+                min_index = j // i 아님
+            }
+        }
+
+        if (min_index != i) {
+            var temp = array[i]
+            array[i] = array[min_index]
+            array[min_index] = temp
+        }
+    }
+}
+
+fun insertion_sort(array: IntArray) { // 삽입 정렬
+    var k = 1
+    while (k < array.size) {
+        var temp = array[k]
+        var i = k
+        while (i > 0) {
+            if (array[i - 1] >= temp) {
+                break
+            }
+            array[i] = array[i - 1]
+            i--
+        }
+        array[i] = temp
+        k++
+    }
+}
+
+fun print_array(array:IntArray) { // 출력
+    for (i in 0..< array.size) {
+        print("%3d".format(array[i]))
+    }
+    println()
+}
+
+fun get_int_array(cin: Scanner, array: IntArray) {
+    for(i in 0..< array.size) {
+        array[i] = cin.nextInt()
+    }
+}
+
+fun shuffle_big_int_array(array: IntArray) { // 원소 섞음
+    for (i in 0..< array.size) {
+        val j = (Math.random() * array.size).toInt()
+        if (j == i)
+            continue
+
+        val temp = array[i]
+        array[i] = array[j]
+        array[j] = temp
+    }
+}
+
+fun gen_big_rand_int_array(size: Int, offset: Int): IntArray { // 중복 x 엄청 큰 정수 배열 생성
+    val bigIntArray = IntArray(size)
+    for (i in 0..< size) {
+        bigIntArray[i] = i + offset
+    }
+
+    shuffle_big_int_array(bigIntArray)
+
+    return bigIntArray
+}
+*/
+
+
 
