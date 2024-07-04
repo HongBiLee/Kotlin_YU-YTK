@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60dba020-5642-48a1-a34a-6ca1c271ec8f" name="Changes" comment="ch05- Kotlin 클래스 상속, 인터페이스, 확장 함수">
+    <list default="true" id="60dba020-5642-48a1-a34a-6ca1c271ec8f" name="Changes" comment="Ch08 - Kotlin 기반 자료 구조와 알고리즘">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ch03.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch03.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ch04/MtrxApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch04/MtrxApp.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
@@ -40,7 +42,12 @@
     "Kotlin.Ch02Kt.executor": "Run",
     "Kotlin.Ch03Kt.executor": "Run",
     "Kotlin.CityPairAppKt.executor": "Run",
+    "Kotlin.FileAppKt.executor": "Run",
+    "Kotlin.FileReaderAppKt.executor": "Run",
     "Kotlin.HashMapAppKt.executor": "Run",
+    "Kotlin.IntArraySortingAppKt.executor": "Run",
+    "Kotlin.KeyboardInputOutputAppKt.executor": "Run",
+    "Kotlin.KoreanAppKt.executor": "Run",
     "Kotlin.MtrxAppKt.executor": "Run",
     "Kotlin.PersonAppKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -73,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719809419592</updated>
-      <workItem from="1719809420964" duration="30837000" />
+      <workItem from="1719809420964" duration="46427000" />
     </task>
     <task id="LOCAL-00001" summary="초기">
       <option name="closed" value="true" />
@@ -147,7 +154,87 @@
       <option name="project" value="LOCAL" />
       <updated>1719976934611</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ch04 - MtrxApp 실행 결과">
+      <option name="closed" value="true" />
+      <created>1719988567961</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719988567961</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Ch05 - PersonApp 실행 결과">
+      <option name="closed" value="true" />
+      <created>1719988587815</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1719988587815</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Ch06 - CityPairApp 실행 결과">
+      <option name="closed" value="true" />
+      <created>1719988606441</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1719988606441</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Ch06 -">
+      <option name="closed" value="true" />
+      <created>1719988624345</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1719988624345</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Ch06 - Kotlin Generic, Collection, Package, Module">
+      <option name="closed" value="true" />
+      <created>1719988672850</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719988672850</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Ch06 - Kotlin Generic, Collection, Package, Module">
+      <option name="closed" value="true" />
+      <created>1719988685234</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719988685234</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Ch06 - Kotlin Generic, Collection, Package, Module">
+      <option name="closed" value="true" />
+      <created>1720055676981</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1720055676981</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Ch07 - Kotlin Stream, FIle Input / Output">
+      <option name="closed" value="true" />
+      <created>1720062876647</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1720062876648</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Ch07 - Kotlin Stream, FIle Input / Output">
+      <option name="closed" value="true" />
+      <created>1720062985814</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1720062985814</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Ch08 - Kotlin 기반 자료 구조와 알고리즘">
+      <option name="closed" value="true" />
+      <created>1720076572934</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1720076572934</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +248,14 @@
     <MESSAGE value="ch03- Kotlin 함수, 기본 알고리즘, 성능 측정" />
     <MESSAGE value="ch04- Kotlin 객체 지향 프로그래밍, 클래스, 상속" />
     <MESSAGE value="ch05- Kotlin 클래스 상속, 인터페이스, 확장 함수" />
-    <option name="LAST_COMMIT_MESSAGE" value="ch05- Kotlin 클래스 상속, 인터페이스, 확장 함수" />
+    <MESSAGE value="ch04 - MtrxApp 실행 결과" />
+    <MESSAGE value="Ch05 - PersonApp 실행 결과" />
+    <MESSAGE value="Ch06 - CityPairApp 실행 결과" />
+    <MESSAGE value="Ch06 - HashMapApp 실행 결과" />
+    <MESSAGE value="Ch06 - Kotlin Generic, Collection, Package, Module" />
+    <MESSAGE value="Ch07 - Kotlin Stream, FIle Input / Output" />
+    <MESSAGE value="Ch08 - Kotlin 기반 자료 구조와 알고리즘" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ch08 - Kotlin 기반 자료 구조와 알고리즘" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
